@@ -1,7 +1,8 @@
 FROM lkalbert001/ubuntu:14.04
 COPY cufflinks-2.2.1.Linux_x86_64.tar.gz /root/
 WORKDIR /root
-RUN set -e \
+#RUN set -e \
+RUN echo "start" \
 	&& apt-get update\
 	&& apt-get install -y bowtie2 \
 	&& apt-get install -y samtools \
