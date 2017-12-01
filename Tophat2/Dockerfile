@@ -12,5 +12,5 @@ RUN echo "start" \
 	&& tar -zxvf tophat-2.1.1.Linux_x86_64.tar.gz \
 	&& find tophat-2.1.1.Linux_x86_64/ -type f -executable| xargs -i  mv {} /usr/local/bin/ \
 	#&& echo "export PATH=/root/tophat-2.1.1.Linux_x86_64:$PATH" >>/etc/profile \
-	&& rm -rf tophat-2.1.1.Linux_x86_64.tar.gz  cufflinks-2.2.1.Linux_x86_64* \
+	&& rm -rf tophat-2.1.1.Linux_x86_64*  cufflinks-2.2.1.Linux_x86_64* \
 	&& rm -rf /var/lib/apt/lists/*
