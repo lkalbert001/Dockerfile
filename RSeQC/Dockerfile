@@ -9,4 +9,4 @@ RUN apt-get update \
 	&& pip install RSeQC \
 	&& rm get-pip.py \
 	&& rm -rf /var/lib/apt/lists/* 
-CMD ['/bin/bash']
+CMD ["/bin/bash"]
