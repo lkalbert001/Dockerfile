@@ -1,6 +1,5 @@
 FROM lkalbert001/ubuntu:14.04
-MAINTAINER lkalbert001
-#lkalbert001@163.com
+MAINTAINER lkalbert001 <lkalbert001@163.com>
 WORKDIR /root
 RUN apt-get update \
     && apt-get install -y libssl-dev liblzma-dev\
