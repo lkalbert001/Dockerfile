@@ -1,0 +1,6 @@
+source("http://bioconductor.org/biocLite.R") 
+biocLite("qvalue") 
+biocLite("GSVA") 
+biocLite("gage")
+biocLite("rtracklayer") 
+biocLite("EnrichmentBrowser") 
