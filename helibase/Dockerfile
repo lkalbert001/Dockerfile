@@ -9,3 +9,4 @@ RUN apt-get update \
 	&& echo -e '#!/bin/bash\nexec "${@:3}"' > /sbin/my_init && chmod +x /sbin/my_init \
 	&& rm -rf get-pip.py  \
 	&& rm -rf /var/lib/apt/lists/*
+CMD ['/bin/bash']
