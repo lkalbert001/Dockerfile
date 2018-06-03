@@ -1,4 +1,4 @@
-FROM lkalbert001/r-base:3.5.0
+FROM lkalbert001/r-base:latest
 
 MAINTAINER lkalbert001
 
