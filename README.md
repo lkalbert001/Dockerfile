@@ -14,8 +14,8 @@ msort | docker pull lkalbert001/msort
 rMATs | docker pull lkalbert001/rmats
 java8 | docker pull lkalbert001/java8
 
-下载镜像命令：
+镜像下载命令：
 ```
-#tag为'latest'，则可省略
+# tag为'latest'，则可省略
 docker pull <depository>:<tag>
 ```
