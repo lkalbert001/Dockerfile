@@ -12,7 +12,7 @@ RUN set -xe \
 	&& rm -rf /var/lib/apt/lists/*
 
 RUN set -xe \
-	&& wget https://github.com/dkoboldt/varscan/blob/master/VarScan.v2.4.3.jar \
-	&& wget https://github.com/dkoboldt/varscan/blob/master/VarScan.v2.4.3.description.txt
+	&& wget https://github.com/dkoboldt/varscan/raw/master/VarScan.v2.4.3.jar \
+	&& wget https://github.com/dkoboldt/varscan/raw/master/VarScan.v2.4.3.description.txt
 
 CMD ["/bin/bash"]
