@@ -6,8 +6,9 @@ Images | Depository |Tag
 ubuntu | lkalbert001/ubuntu | 14.04
 r-base | lklabert001/r-base | latest
 contra | lkalbert001/contra | 2.0.8
+Tophat2 | lkalbert001/tophat2 | latest
+VarScan2 | lkalbert001/varscan2 |2.4.3
 RSeQC |  lkalbert001/rseqc
-Tophat2 | docker pull lkalbert001/tophat2  
 HTSeq | docker pull lkalbert001/htseq
 msort | docker pull lkalbert001/msort
 rMATs | docker pull lkalbert001/rmats
