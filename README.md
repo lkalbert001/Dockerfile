@@ -4,10 +4,12 @@ Dockerfile about software of bioinformatics
 Images | Depository |Tag
 ---|---|---
 ubuntu | lkalbert001/ubuntu | 14.04
-r-base | lklabert001/r-base | latest
 contra | lkalbert001/contra | 2.0.8
-Tophat2 | lkalbert001/tophat2 | latest
 VarScan2 | lkalbert001/varscan2 |2.4.3
+r-base | lklabert001/r-base | latest
+Tophat2 | lkalbert001/tophat2 | latest
+ONCOCNV | lkalbert001/oncocnv | latest
+
 RSeQC |  lkalbert001/rseqc
 HTSeq | docker pull lkalbert001/htseq
 msort | docker pull lkalbert001/msort
