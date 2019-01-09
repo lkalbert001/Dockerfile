@@ -16,7 +16,7 @@ rMATs | docker pull lkalbert001/rmats
 java8 | docker pull lkalbert001/java8
 
 镜像下载命令：
-```
+```bash
 # tag为'latest'，则可省略
 docker pull <depository>:<tag>
 ```
